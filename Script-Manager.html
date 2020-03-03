@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Script Manger</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #Header {
+            text-align: center;
+            background-color: rgb(57, 81, 192);
+        }
+
+        #Header h1 {
+            padding: 0.5rem;
+        }
+
+        #Header p {
+            font-size: 1.5rem;
+            padding: 1rem;
+        }
+
+        #Main {
+            background-color: rgb(174, 183, 219);
+            margin-top: -1.5rem;
+            height: 100vh;
+        }
+
+        #Main h3 {
+            padding: 2rem;
+        }
+
+        .code-container{
+            margin: 2rem;
+        }
+
+        .left{
+            float: left;
+        }
+
+        .right{
+            float: right;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!--Header Div-->
+    <div id="Header">
+        <h1>Script Manger</h1>
+        <p>Nadlan Deal CRM</p>
+    </div>
+
+
+    <!--Main Div-->
+
+    <div id="Main">
+
+        <div class="code-container left">
+            <h3>Code Inside Head</h3>
+            <textarea id="inside-head-code" rows="30" cols="100">
+            At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+            </textarea>
+        </div>
+
+
+        <div class="code-container right">
+
+            <h3>Code Before Body Close</h3>
+            <textarea id="code-after-body" rows="30" cols="100">
+            At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+            </textarea>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
